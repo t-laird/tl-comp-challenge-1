@@ -1,0 +1,22 @@
+.dark-primary-color    { background: #455A64; }
+.default-primary-color { background: #607D8B; }
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF5252; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+
+section.icons{
+	width:39.89%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+section.photos{
+	width:60.11%;
+	height: 100%;
+	
+}
