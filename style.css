@@ -17,6 +17,11 @@ body{
 	display:flex;
 }
 
+section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .top{
 	width: 100%;
 	display: flex;
@@ -25,6 +30,7 @@ body{
 .middle{
 	width: 100%;
 	display: flex;
+
 }
 
 .bottom{
@@ -33,9 +39,7 @@ body{
 }
 
 .box{
-	width: 33.3%;
-	display: flex;
-/*	height: 33.3vw;*/
+	width: 300px;
 	justify-content: space-around;
 	align-items: center;
 }
