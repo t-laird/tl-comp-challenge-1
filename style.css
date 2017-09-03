@@ -15,13 +15,39 @@ section{
 	flex-wrap: wrap;
 }
 
+.tinyicon{
+	height: 1vw;
+	width: 1vw;
+	z-index: 10;
+	position: absolute;
+}
+
+.first{
+	position: absolute;
+	top: 1vw;
+	right: 1vw;
+}
+
+.second{
+	position: absolute;
+	top: 1vw;
+	right: 2.25vw;
+}
+
+.third{
+	position: absolute;
+	top: 1vw;
+	right: 3.5vw;
+}
+
 
 .box{
 	width: 20vw;
 	height: 20vw;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
 }
 
 img{
@@ -30,10 +56,46 @@ img{
 	border-radius: 10%;
 }
 
+.emptyfill{
+	width: 20vw;
+	height: 10px;
+}
+
 .header{
 	width:40vw;
 	height: 20vw;
 	background: #084C61;
+}
+
+.icon-container{
+	display:flex;
+	align-items: center;
+
+}
+
+.name{
+	color:white;
+	font-size: 16px;
+	display: block;
+}
+
+.icon{
+	height: 20px;
+	width: 20px;
+	padding-top: 5px;
+}
+
+p.icons{
+	width: 120px;
+	height: 45px;
+	border: 2px solid white;
+	margin-top: 10px;
+	color: white;
+	margin-left: 30px;
+	font-family: sans-serif;
+	display: inline-block;
+	padding-top: 5px;
+	margin-bottom: -5px;
 }
 
 .box1{
@@ -73,6 +135,7 @@ img{
 .right-container{
 	display: flex;
 	width: 40%;
+	justify-content: flex-end;
 }
 
 .bigpic{
@@ -138,6 +201,11 @@ p.description{
 		height:25vw;
 	}
 
+	.emptyfill{
+	width: 50vw;
+	height: 10px;
+	}
+
 	.box5{
 		display: none;
 	}
@@ -182,6 +250,11 @@ p.description{
 	img{
 		width: 50vw;
 		height: 50vw;
+	}
+
+	.emptyfill{
+	width: 100vw;
+	height: 10px;
 	}
 }
 
