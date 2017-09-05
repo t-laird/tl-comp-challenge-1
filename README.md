@@ -2,3 +2,5 @@
 
 
 Placeholder Text.
+
+[testimage](IMG_1134.jpg)
