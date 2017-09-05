@@ -94,20 +94,20 @@ img{
 }
 
 .arrow{
-	height: 40px;
-	width: 40px;
+	height: 5vw;
+	width: 5vw;
 }
 
 .leftside{
 	position:absolute;
-	right: 35vw;
-	top:30vw;
+	right: 33.5vw;
+	top:27.5vw;
 }
 
 .rightside{
 	position: absolute;
-	right: 5vw;
-	top: 30vw;
+	right: 1.5vw;
+	top: 27.5vw;
 }
 
 p.icons{
@@ -218,6 +218,15 @@ p.description{
 		height:25vw;
 	}
 
+	.img-format:hover{
+		width:37.5vw;
+		height:37.5vw;
+	}
+
+	.name{
+		font-size: 35px;
+	}
+
 	.emptyfill{
 	width: 50vw;
 	height: 0.05px;
@@ -243,6 +252,19 @@ p.description{
 	.secondline{
 		martin-top:7px;
 	}
+
+
+	.leftside{
+		position:absolute;
+		bottom: 72.5vw;
+		left: 5vw;
+	}
+
+	.rightside{
+		position: absolute;
+		bottom: 72.5vw;
+		left: 5vw;
+	}
 }
 
 @media screen and (max-width: 700px){
@@ -267,6 +289,11 @@ p.description{
 	img{
 		width: 50vw;
 		height: 50vw;
+	}
+
+	.img-format:hover{
+		width:75vw;
+		height:75vw;
 	}
 
 	.emptyfill{
