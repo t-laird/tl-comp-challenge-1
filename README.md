@@ -3,4 +3,4 @@
 
 Placeholder Text.
 
-[testimage](IMG_1134.jpg)
+[testimage](IMG_1134.jpg?raw=true)
